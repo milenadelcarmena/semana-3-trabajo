@@ -1,0 +1,85 @@
+/* Colores y tipografía base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Header y footer */
+header, footer {
+    background-color: #b30086; /* color más personalizado, violeta/rosa intenso */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #2b003a; /* tono oscuro que combine con violeta */
+    margin-top: 20px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+}
+
+/* Navegación básica */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #b30086;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Formulario */
+form {
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #b30086;
+    border-radius: 5px;
+    background-color: #fce4f8; /* rosa muy suave */
+}
+
+input, button {
+    padding: 6px;
+    margin-top: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b30086;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b003a;
+}
